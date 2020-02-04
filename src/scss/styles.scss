@@ -16,20 +16,3 @@
 }
 
 //CODE
-body{
-    background-color: red;
-    @media (min-width: 500px){
-        background-color: royalblue;
-    }
-}
-h1{
-    color: $primaryColor;
-    width: 20px;
-    @include title;
-}
-.first_Btn{
-    @include primaryButton(25px);
-}
-.second_Btn {
-    @include secondButton(25px);
-}
