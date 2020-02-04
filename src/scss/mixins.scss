@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+//BUTTON
+@mixin primaryButton ($radius) {
+    background: $primaryColor;
+    color: $lightColor;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+    height: $heightButton;
+    width: $widthButton;
+    border: none;
+    margin-right: 20px;
+    font-family: "Montserrat-Bold";
+    
+    &:hover{
+        color: $primaryColor;
+        background: $lightColor;
+        cursor: pointer;
+    }
+}
+
+@mixin secondButton ($radius) {
+    border: $primaryColor solid 2px;
+    color: $primaryColor;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+    height: $heightButton;
+    width: $widthButton;
+    background: none;
+    font-family: "Montserrat-Bold";
+    
+    &:hover{
+        border: none;
+        color: $primaryColor;
+        background: $lightColor;
+        cursor: pointer;
+    }
+}
+
+//TEXT
+@mixin title {
+    font-family: "Montserrat-Bold";
+    font-size: 2.58333333rem;
+    line-height: 3.83333333rem;
+}
+
+@mixin subtitle {
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.58333333rem;
+    line-height: 2.33333333rem‬;
+}
+
+@mixin paragraph {
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+    line-height: 1.5rem‬;
+}
