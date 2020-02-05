@@ -1,8 +1,61 @@
-.header {
-  background: gold;
+@import "variables.scss"; //COLOR & width/height BUTTON
+@import "mixins.scss"; //OTHER
 
-  h1 {
-    text-align: center;
-    font-size: 50px;
+//TEXT
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url("../../font/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Montserrat-SemiBold";
+    src:url("../../font/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url("../../font/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
   }
+
+  body {
+      overflow-x: hidden;
+  }
+
+//CODE
+
+// Partie 2 (Ramtin)
+.box2 {
+    height: 510px;
+    margin-top: 560px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @media (min-width: 1024px) {
+        height: 1000px;
+        margin-top: 849px;
+        padding: 30px;
+        display: block;
+        position: relative;
+        background: #000000;
+        background-size: 600px auto;
+    }
+}
+.main-h {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    @media (min-width: 1024px) {
+        text-align: left;
+        margin-left: 106.65px;
+        margin-top: 80px;
+        font-size: 41px;
+    }
+    
 }

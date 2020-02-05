@@ -1,17 +1,26 @@
 {
-  "name": "parcel-boilerplate",
+  "name": "primask",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimal boilerplate for parcel powered project",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "oliwia, ousmane, sebastien, ramtin et laurent",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.3"
-  }
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastienbezombes/parcel-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sebastienbezombes/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sebastienbezombes/parcel-boilerplate#readme"
 }

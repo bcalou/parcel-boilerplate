@@ -1,0 +1,459 @@
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../font/Montserrat/Montserrat-Regular.ttf")  format("truetype") ;
+}
+
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("../font/Montserrat/Montserrat-Bold.ttf")  format("truetype") ;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Montserrat Alternates";
+    src: url("../font/Montserrat-Alternates/MontserratAlternates-Bold.ttf") format("truetype") ;
+    font-weight: bold;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      overflow-x: hidden;
+  }
+
+/* partie 2 Ramtin */
+.box2 {
+    height: 510px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-h {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+.greentext {
+    color: #6CCDA9;
+}
+.picto_textile {
+    width: 56px;
+    height: 56px;
+    margin-top: 43px;
+}
+.sub-h-1 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 14px;
+}
+.picto_France {
+    height: 59px;
+    margin-top: 51px;
+}
+.sub-h-2 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 14px;
+}
+.picto_fibre {
+    margin-top: 51px;
+    height: 59px;
+}
+.sub-h-3 {
+    color: #6CCDA9;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15.3px;
+}
+/* partie 3 Ramtin */
+.box3 {
+    display: flex;
+    flex-direction: column;
+    height: 627px;
+    background: #FFFFFF;
+}
+.sub-h-4 {
+    margin-top: 41px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-align: center;
+
+}
+.sub-h-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 15px;
+
+}
+.bc_picto_wrapper {
+    position: relative;
+    background: url("../img/technology3/degradeVirus.png") center center no-repeat;
+    width: 74px;
+    height: 85px;
+    background-size: 74px 85px;
+}
+.picto_virus {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 49.73px;
+    height: 47.81px;
+}
+.sub-h-5 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.sub-h-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+.sub-h-6 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_allegie {
+    position: relative;
+    background: url("../img/technology3/degradeAllergy.png") center center no-repeat;
+    width: 88px;
+    height: 91px;
+    background-size: 88px 91px;
+}
+.picto_allegie {
+    position: absolute;
+    width: 63.6px;
+    height: 74.47px;
+}
+.sub-h-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 15px;
+}
+.sub-h-7 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_usine {
+    position: relative;
+    background: url("../img/technology3/degradeUsine.png") center center no-repeat;
+    width: 88px;
+    height: 91px;
+    background-size: 88px 91px;
+}
+.picto_usine {
+    position: absolute;
+    width: 33.55px;
+    height: 42.53px;
+    margin-top: 30px;
+}
+.sub-h-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+.sub-h-8 h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(96, 92, 92, 0.82);
+}
+.bc_picto_pollution {
+    position: relative;
+    background: url("../img/technology3/degradePollution.png") center center no-repeat;
+    width: 135px;
+    height: 65px;
+    background-size: 135px 65px;
+}
+.picto_pollution {
+    position: absolute;
+    height: 63px;
+}
+.what-is-primask-para,
+.ecology_Circle,
+.br-1,
+.sub-p-1,
+.sub-p-2,
+.sub-p-3,
+.mask-tech {
+    display: none;
+}
+@media (min-width: 1024px) {
+    .boxes {
+        position: relative;
+        border: 9px solid;
+        height: 500px;
+        max-width: 1000px;
+        margin: 0 auto;
+        top: 70px;
+        background: url("../img/description2/ecologyCircle2.svg") center bottom no-repeat
+        
+    }
+    
+    /* partie 2 Ramtin ORDI */
+    .box2 {
+        height: 700px;
+        padding: 30px;
+        display: block;
+        position: relative;
+        background: #000000;
+        background-size: 600px auto;
+    }
+    .rectangle {
+        position: absolute;
+        width: 1px;
+        height: 65px;
+        margin-left: 79.59px;
+        background-color: white;
+        margin-top: -10px;
+    }
+    .main-h {
+        text-align: left;
+        margin-left: 106.65px;
+        margin-top: 10px;
+        font-size: 41px;
+
+    }
+    .what-is-primask-para {
+        color: white;
+        display: block;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 22px;
+        position: absolute;
+        margin-left: 105px;
+    }
+    .ecology_Circle {
+        display: inline;
+        margin-top: -250px;
+    }
+    .picto_textile {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        width: 53px;
+        height: 53px;
+    }
+    .picto_France {
+        height: 55px;
+        position: relative;
+        right: 210px;
+        top: 105px;
+    }
+    .picto_fibre {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        right: 130px;
+        top: 100px;
+    }
+    .sub-h-1 {
+        width: 311.4px;
+        text-align: left;
+        margin-top: -15px;
+        margin-left: 420px;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        
+    }
+    .sub-h-2 {
+        width: 311.4px;
+        text-align: left;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        margin-top: 45px;
+    }
+    .sub-h-3 {
+        width: 250px;
+        text-align: left;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        height: 95px;
+        margin-left: 100px;
+        margin-top: 35px;
+
+    }
+    .sub-p-1 {
+        display: block;
+        color: white;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 420px;
+        text-align: left;
+        margin-top: -20px;
+        width: 300px;
+        height: 117px;
+    }
+    .sub-p-2 {
+        display: block;
+        color: white;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: -20px;
+    }
+    .sub-p-3 {
+        display: block;
+        color: white;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    .box.bottom-left {
+        position: absolute;
+        left: 30px;
+        margin-top: 120px;
+    }
+    .box.bottom-right {
+        position: absolute;
+        right: 30px;
+        margin-top: 120px;
+    }
+    .box.top-center{
+        position: absolute;
+        margin-left: -45px;
+        margin-top: -50px;
+    }
+    /* partie 3 Ramtin ORDI */
+    .boxes2 {
+        position: relative;
+        height: 700px;
+        width: 900px;
+        max-width: 1000px;
+        margin: 0 auto;
+        top: -200px;
+        background: url("../img/technology3/Mask3.png") center bottom no-repeat
+    }
+    .box3 {
+        height: 800px;
+    }
+    .rectangle2 {
+        position: absolute;
+        width: 1px;
+        height: 85px;
+        background-color: black;
+        margin-left: 109.59px;
+        margin-top: 50px;
+    }
+    .sub-h-4 {
+        text-align: left;
+        margin-left: 139.59px;
+        margin-top: 50px;
+        font-size: 41px;
+        line-height: 43px;
+    }
+    .sub-h-5 {
+        width: 300px;
+        height: 200px;
+        margin-top: 230px;
+        margin-left: 50px;
+    }
+    .bc_picto_wrapper {
+        bottom: 40px;
+    }
+    .bc_picto_wrapper_h3 {
+        position: absolute;
+        margin-top: 50px;
+        width: 160px;
+    }
+    .sub-h-6 {
+        width: 300px;
+        height: 200px;
+        margin-left: 630px;
+        margin-top: -250px;
+    }
+    .bc_picto_allegie {
+        left: 140px;
+    }
+    .bc_picto_allegie_h3 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 140px;
+    }
+    .sub-h-7 {
+        width: 300px;
+        height: 200px;
+        margin-left: -20px;
+        margin-top: 180px;
+    }
+    .bc_picto_usine {
+        left: 60px;
+    }
+    .bc_picto_usine_h3 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    .sub-h-8 {
+        width: 300px;
+        height: 200px;
+        margin-left: 600px;
+        margin-top: -250px;
+    }
+    .bc_picto_pollution {
+        left: 140px;
+    }
+    .bc_picto_pollution_h3 {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+}
